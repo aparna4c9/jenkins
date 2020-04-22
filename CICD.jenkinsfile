@@ -4,7 +4,7 @@ pipeline {
         stage('download repo') {
             steps {
                 
-                git 'https://gitlab.com/batch35/studentapp-ui.git'
+                git 'https://github.com/aparna4c9/jenkins.git'
 
             }
         }
