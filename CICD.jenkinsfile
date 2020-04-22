@@ -1,0 +1,17 @@
+pipeline {
+    agent any
+    stages{
+        stage('download repo') {
+            steps {
+                
+                git 'https://gitlab.com/batch35/studentapp-ui.git'
+
+            }
+        }
+        stage('compile code') {
+            steps {
+                sh 'mvn compile'
+            }
+        }
+    }
+}
