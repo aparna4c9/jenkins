@@ -1,0 +1,8 @@
+- name: deploy the war file
+  hosts: all
+  become: yes
+  vars:
+    TOMCAT_LOC: /home/student/apache-tomcat-8.5.37
+  tasks:
+    - name: check a dir exits or not
+      shell: ls -ld {{TOMCAT_LOC}} 

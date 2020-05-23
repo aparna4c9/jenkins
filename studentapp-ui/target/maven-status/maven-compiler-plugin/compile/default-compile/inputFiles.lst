@@ -1,0 +1,7 @@
+/home/centos/jenkins/studentapp-ui/src/com/srk/servlet/DeleteStudent.java
+/home/centos/jenkins/studentapp-ui/src/com/srk/servlet/EditStudent.java
+/home/centos/jenkins/studentapp-ui/src/com/srk/dao/StudentDAO.java
+/home/centos/jenkins/studentapp-ui/src/com/srk/servlet/RegistrationController.java
+/home/centos/jenkins/studentapp-ui/src/com/srk/servlet/SaveEditedStudent.java
+/home/centos/jenkins/studentapp-ui/src/vo/Student.java
+/home/centos/jenkins/studentapp-ui/src/com/srk/servlet/ViewStudents.java
