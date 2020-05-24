@@ -1,0 +1,22 @@
+pipeline {
+    agent any
+    stages{
+        
+        stage('download repo') {
+            steps {
+                
+             git credentialsId: 'bfc37f93-fbc9-4171-8d7a-f1da28159958', url: 'https://github.com/aparna4c9/jenkins.git'
+             
+                
+            }
+        }
+        
+        stage('deploy war file') {
+            steps {
+                sh '''
+                cd ansible
+                ansible-playbook -i hosts deploy.yml
+            }
+        }
+    }
+}
