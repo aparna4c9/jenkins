@@ -1,0 +1,6 @@
+projectKey=student
+serverUrl=http://15.206.169.162:9000
+serverVersion=7.9.3.33349
+dashboardUrl=http://15.206.169.162:9000/dashboard?id=student
+ceTaskId=AXJnKMGA16BGW_z6aPuU
+ceTaskUrl=http://15.206.169.162:9000/api/ce/task?id=AXJnKMGA16BGW_z6aPuU

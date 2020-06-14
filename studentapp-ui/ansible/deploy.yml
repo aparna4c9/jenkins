@@ -1,5 +1,5 @@
 - name: deploy the war file
-  hosts: all
+  hosts: localhost
   become: yes
   vars:
     TOMCAT_LOC: /home/student/apache-tomcat-8.5.37
